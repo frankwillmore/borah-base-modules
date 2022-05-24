@@ -1,0 +1,25 @@
+#%Module1.0
+## Module file created by spack (https://github.com/spack/spack) on 2022-05-13 14:11:20.970635
+##
+## mpich@3.4.3%oneapi@2022.1.0~argobots+cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~verbs+wrapperrpath cuda_arch=none datatype-engine=auto device=ch4 netmod=ofi pmi=pmi arch=linux-centos7-haswell/ubumopx
+##
+## Configure options: --disable-silent-rules --enable-shared --with-hwloc-prefix=/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/hwloc-2.7.1-mzk4wea6nvofw5tmm44joxi5gw5tupbe --with-pm=hydra --enable-romio --without-ibverbs --enable-wrapper-rpath=yes --with-yaksa=embedded --with-slurm=no --with-pmi=simple --with-cuda=/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/cuda-11.6.2-2ce2poyr5ahb6k7gebm446nsvcwvcts2 --without-hip --with-device=ch4:ofi --with-libfabric=/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/libfabric-1.14.1-athaqx4nbtl7kdk2oywoiqoczp5btkwy --enable-libxml2 --with-datatye-engine=auto
+##
+
+
+module-whatis "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard."
+
+proc ModulesHelp { } {
+puts stderr "MPICH is a high performance and widely portable implementation of the"
+puts stderr "Message Passing Interface (MPI) standard."
+}
+
+conflict mpich
+
+prepend-path PATH "/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/mpich-3.4.3-ubumopxahds72pazyhp6gwud4624hkyu/bin"
+setenv MPICC "/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/mpich-3.4.3-ubumopxahds72pazyhp6gwud4624hkyu/bin/mpicc"
+setenv MPICXX "/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/mpich-3.4.3-ubumopxahds72pazyhp6gwud4624hkyu/bin/mpic++"
+setenv MPIF77 "/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/mpich-3.4.3-ubumopxahds72pazyhp6gwud4624hkyu/bin/mpif77"
+setenv MPIF90 "/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/mpich-3.4.3-ubumopxahds72pazyhp6gwud4624hkyu/bin/mpif90"
+setenv MPICH_ROOT "/cm/shared/software/opt/linux-centos7-haswell/oneapi-2022.1.0/mpich-3.4.3-ubumopxahds72pazyhp6gwud4624hkyu"
+

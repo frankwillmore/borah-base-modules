@@ -1,0 +1,25 @@
+#%Module1.0
+## Module file created by spack (https://github.com/spack/spack) on 2022-05-13 14:11:20.866359
+##
+## mpich@3.4.3%gcc@12.1.0~argobots+cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~verbs+wrapperrpath cuda_arch=none datatype-engine=auto device=ch4 netmod=ofi pmi=pmi arch=linux-centos7-haswell/4tzgjd4
+##
+## Configure options: --disable-silent-rules --enable-shared --with-hwloc-prefix=/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/hwloc-2.7.1-yhwmkukku3eeuf2gymxpwl2kxd4wufps --with-pm=hydra --enable-romio --without-ibverbs --enable-wrapper-rpath=yes --with-yaksa=embedded --with-slurm=no --with-pmi=simple --with-cuda=/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/cuda-11.6.2-lo4dp4ia4ib5nnhn7tf3cb2ofr53dhal --without-hip --with-device=ch4:ofi --with-libfabric=/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/libfabric-1.14.1-tv5chewe7v54rzlc2agtl6lga3igwaox --enable-libxml2 --with-datatye-engine=auto
+##
+
+
+module-whatis "MPICH is a high performance and widely portable implementation of the Message Passing Interface (MPI) standard."
+
+proc ModulesHelp { } {
+puts stderr "MPICH is a high performance and widely portable implementation of the"
+puts stderr "Message Passing Interface (MPI) standard."
+}
+
+conflict mpich
+
+prepend-path PATH "/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/mpich-3.4.3-4tzgjd4i6ht5gstaod56afj4t5h3kru2/bin"
+setenv MPICC "/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/mpich-3.4.3-4tzgjd4i6ht5gstaod56afj4t5h3kru2/bin/mpicc"
+setenv MPICXX "/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/mpich-3.4.3-4tzgjd4i6ht5gstaod56afj4t5h3kru2/bin/mpic++"
+setenv MPIF77 "/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/mpich-3.4.3-4tzgjd4i6ht5gstaod56afj4t5h3kru2/bin/mpif77"
+setenv MPIF90 "/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/mpich-3.4.3-4tzgjd4i6ht5gstaod56afj4t5h3kru2/bin/mpif90"
+setenv MPICH_ROOT "/cm/shared/software/opt/linux-centos7-haswell/gcc-12.1.0/mpich-3.4.3-4tzgjd4i6ht5gstaod56afj4t5h3kru2"
+

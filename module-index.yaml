@@ -1,0 +1,61 @@
+module_index:
+  yztxqq4nafv7dyxkohfycsibetgfvrna:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/gcc/12.1.0
+    use_name: gcc/12.1.0
+  dnwr4v75vqnzcr6k56fkblahlcyuquoa:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/oneapi/2022.1.0
+    use_name: oneapi/2022.1.0
+  q3x3llyuqjtvneyzpp3ev6zmxblqaaol:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/intel-oneapi-mpi/2021.6.0/gcc/12.1.0
+    use_name: intel-oneapi-mpi/2021.6.0/gcc/12.1.0
+  qbicvxguxm2j3xaowxu3ogddo3ghh3zk:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/intel-oneapi-mpi/2021.6.0/oneapi/2022.1.0
+    use_name: intel-oneapi-mpi/2021.6.0/oneapi/2022.1.0
+  tu636mnmefr7a2qbv3om3iwka4ta7air:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/mpich/3.4.3/gcc/12.1.0
+    use_name: mpich/3.4.3/gcc/12.1.0
+  ygwx4roajefk6danmjdazrk22bb3lnn2:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/mpich/3.4.3/oneapi/2022.1.0
+    use_name: mpich/3.4.3/oneapi/2022.1.0
+  kkfate2m3xpupmasg33zf6vwesyufsjg:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/openmpi/3.1.6/gcc/12.1.0
+    use_name: openmpi/3.1.6/gcc/12.1.0
+  d3t2yi2y7qnrmfhgibigetfpdomk5gg5:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-x86_64/openmpi/3.1.6/oneapi/2022.1.0
+    use_name: openmpi/3.1.6/oneapi/2022.1.0
+  xkrznqhie6bm6hfhpilqrxayzqcfzq3k:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-cascadelake/intel-oneapi-mpi/2021.6.0/gcc/12.1.0
+    use_name: intel-oneapi-mpi/2021.6.0/gcc/12.1.0
+  qms42bmcnxkfx32hztuxdkrtx6o4ybbo:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-haswell/intel-oneapi-mpi/2021.6.0/gcc/12.1.0
+    use_name: intel-oneapi-mpi/2021.6.0/gcc/12.1.0
+  lzzivthldsvq66yddbxhkjc5xqosy4pp:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-cascadelake/intel-oneapi-mpi/2021.6.0/oneapi/2022.1.0
+    use_name: intel-oneapi-mpi/2021.6.0/oneapi/2022.1.0
+  bpkvb2s7ygjxvs5nre33ig3m5yi2sndr:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-haswell/intel-oneapi-mpi/2021.6.0/oneapi/2022.1.0
+    use_name: intel-oneapi-mpi/2021.6.0/oneapi/2022.1.0
+  ojljd2nkao5bg4bklfukkbzuw3lggalz:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-cascadelake/mpich/3.4.3/gcc/12.1.0
+    use_name: mpich/3.4.3/gcc/12.1.0
+  4tzgjd4i6ht5gstaod56afj4t5h3kru2:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-haswell/mpich/3.4.3/gcc/12.1.0
+    use_name: mpich/3.4.3/gcc/12.1.0
+  awzibzx2srorxsyjgdcdyjj3avcx5oqu:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-cascadelake/mpich/3.4.3/oneapi/2022.1.0
+    use_name: mpich/3.4.3/oneapi/2022.1.0
+  ubumopxahds72pazyhp6gwud4624hkyu:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-haswell/mpich/3.4.3/oneapi/2022.1.0
+    use_name: mpich/3.4.3/oneapi/2022.1.0
+  h6yr2n7q3f4pzj3fvj6327mvmux3r5bm:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-cascadelake/openmpi/3.1.6/gcc/12.1.0
+    use_name: openmpi/3.1.6/gcc/12.1.0
+  dsqzlpgbkitqrucok4onkafbuvvgphpl:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-haswell/openmpi/3.1.6/gcc/12.1.0
+    use_name: openmpi/3.1.6/gcc/12.1.0
+  e5nq3v4vjurs7abaatpnfdh264opwkhv:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-cascadelake/openmpi/3.1.6/oneapi/2022.1.0
+    use_name: openmpi/3.1.6/oneapi/2022.1.0
+  ui2wynmlz43kvgzh7wfiimnlh3giqfus:
+    path: /cm/shared/software/modules/borah-base/linux-centos7-haswell/openmpi/3.1.6/oneapi/2022.1.0
+    use_name: openmpi/3.1.6/oneapi/2022.1.0
